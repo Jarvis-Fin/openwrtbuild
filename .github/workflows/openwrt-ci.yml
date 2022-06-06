@@ -64,7 +64,7 @@ jobs:
           CONFIG_PACKAGE_kmod-crypto-lib-poly1305=y
           CONFIG_PACKAGE_kmod-udptunnel4=y
           CONFIG_PACKAGE_kmod-udptunnel6=y
-          CONFIG_PACKAGE_kmod-wireguard=y
+          #CONFIG_PACKAGE_kmod-wireguard=y
           CONFIG_PACKAGE_luci-app-adblock=y
           CONFIG_PACKAGE_luci-app-adbyby-plus=y
           CONFIG_PACKAGE_luci-app-frpc=y
@@ -74,7 +74,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-privoxy=y
           CONFIG_PACKAGE_luci-app-shadowsocks-libev=y
           CONFIG_PACKAGE_luci-app-wifischedule=y
-          CONFIG_PACKAGE_luci-app-wireguard=y
+          #CONFIG_PACKAGE_luci-app-wireguard=y
           CONFIG_PACKAGE_luci-i18n-adblock-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-adbyby-plus-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-frpc-zh-cn=y
@@ -83,13 +83,13 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-nps-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-privoxy-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-wifischedule-zh-cn=y
-          CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
-          CONFIG_PACKAGE_luci-proto-wireguard=y
+          #CONFIG_PACKAGE_luci-i18n-wireguard-zh-cn=y
+          #CONFIG_PACKAGE_luci-proto-wireguard=y
           CONFIG_PACKAGE_luci-theme-argon=y
           CONFIG_PACKAGE_npc=y
           CONFIG_PACKAGE_privoxy=y
           CONFIG_PACKAGE_wifischedule=y
-          CONFIG_PACKAGE_wireguard-tools=y
+          #CONFIG_PACKAGE_wireguard-tools=y
           EOF
           
           sed -i 's/192.168.1.1/192.168.99.1/g' package/base-files/files/bin/config_generate
